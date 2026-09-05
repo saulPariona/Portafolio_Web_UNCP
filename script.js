@@ -11,7 +11,7 @@ const weeklyData = [
             'Se comprendió que el DNS traduce nombres de dominio legibles en direcciones IP para localizar servidores en Internet.'
         ],
         reflection: 'Esta sesión fue importante porque permitió comprender cómo funciona la web desde sus bases y reconocer que detrás de una página existen tecnologías y procesos que hacen posible su funcionamiento.',
-        practice: { label: 'Práctica de laboratorio', url: 'https://github.com/saulPariona' }
+        practice: { label: 'Práctica de laboratorio', url: 'https://drive.google.com/file/d/10NV3pjX3UTL0GB2-ALpDkD5JyZffRqGR/view?usp=sharing' }
     },
     {
         title: 'HTML y estructura web',
@@ -27,7 +27,7 @@ const weeklyData = [
         reflection: 'Esta semana permitió comprender que HTML es la base estructural de toda página web y que una buena organización facilita el diseño, la accesibilidad y el mantenimiento del proyecto.',
         practice: { label: 'Práctica HTML - Semana 02', url: 'https://github.com/saulPariona' }
     }
-    
+
 
 ];
 
