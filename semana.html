@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contenido semanal de estudio de Saúl Pariona.">
+    <title>Semana | Fundamentos web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="topbar" id="topbar">
+        <nav class="nav container" aria-label="Navegación principal">
+            <a class="brand" href="index.html#inicio"><span class="brand-mark">SPR</span><span>Saúl Pariona</span></a>
+            <a class="back-link" href="cuadernos.html"><i data-lucide="arrow-left" aria-hidden="true"></i>Volver a cuadernos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section weekly-page" id="weeklyPage">
+            <div class="container">
+                <div class="section-header weekly-header reveal">
+                    <p class="eyebrow" data-week-number>SEMANA 01</p>
+                    <h1 data-week-title>Fundamentos web</h1>
+                    <p data-week-introduction></p>
+                    <a class="back-link" href="cuadernos.html"><i data-lucide="arrow-left" aria-hidden="true"></i>Volver al cuaderno</a>
+                </div>
+
+                <div class="weekly-layout">
+                    <article class="weekly-content reveal">
+                        <h2>Temas aprendidos</h2>
+                        <ul data-week-topics></ul>
+                    </article>
+                    <aside class="practice-panel reveal">
+                        <h2>Prácticas de laboratorio</h2>
+                        <a class="practice-link" data-week-practice href="#" target="_blank" rel="noreferrer">
+                            <span><i data-lucide="notebook-pen" aria-hidden="true"></i> <span data-practice-label>Práctica de laboratorio</span></span>
+                            <i data-lucide="external-link" aria-hidden="true"></i>
+                        </a>
+                    </aside>
+                </div>
+
+                <article class="weekly-content weekly-reflection reveal">
+                    <h2>Reflexión</h2>
+                    <p data-week-reflection></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer><div class="container footer-inner"><p>© 2026 Saúl Aníbal Pariona Ramos. Todos los derechos reservados.</p><a href="index.html#inicio">Volver al inicio</a></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
