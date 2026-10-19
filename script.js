@@ -198,6 +198,42 @@ const weeklyData = [
             { label: 'Repositorio GitHub - React y Vite', url: 'https://github.com/saulPariona/SEMANA6_EJERCICIO1_2_SUAZNABAR.git' },
             { label: 'PDF de actividades - Semana 06', url: 'PDF/SEMANA6.pdf' }
         ]
+    },
+    {
+        title: 'React Hooks y dashboard de gestión',
+        description: 'Aplicación práctica de Hooks de React para controlar estado, efectos, contexto, referencias y rendimiento.',
+        introduction: 'Durante la Semana 7 se estudiaron los Hooks nativos y personalizados de React, y se aplicaron en un dashboard de gestión con estado complejo, persistencia local y optimización de renderizados.',
+        topics: [
+            'Se revisó el ciclo de renderizado de React, los re-renderizados producidos por useState y props, React.StrictMode y el uso de Profiler para medir el rendimiento.',
+            'Se refactorizó la consulta de una API con async/await dentro de useEffect, incluyendo dependencias y AbortController para realizar la limpieza correctamente.',
+            'Se implementó useContext mediante providers separados para compartir temas o preferencias sin prop drilling.',
+            'Se utilizaron useMemo, useCallback y useRef para optimizar filtros, estabilizar handlers y acceder al DOM sin provocar re-renderizados.',
+            'Se extrajo lógica reutilizable en Hooks personalizados, respetando las reglas de Hooks y las validaciones de ESLint.',
+            'Se construyó un dashboard con useReducer para agregar, eliminar, filtrar y ordenar una lista, useState para la UI local y useEffect para sincronizar preferencias con Local Storage.',
+            'Se organizaron roles técnicos para arquitectura de estado, efectos y contexto, optimización de rendimiento y validación de Hooks.'
+        ],
+        reflection: 'La Semana 7 permitió comprender cómo coordinar los Hooks de React para construir interfaces mantenibles. El dashboard integró estado complejo, persistencia, contexto y optimización, reforzando la importancia de medir los re-renderizados y mantener cada responsabilidad separada.',
+        resources: [
+            { label: 'Semana 07 - Parte 1: React Hooks', url: 'PDF/SEMANA7_parte1.pdf' },
+            { label: 'Semana 07 - Parte 2: Dashboard de gestión', url: 'PDF/SEMANA7_PARTE2.pdf' }
+        ]
+    },
+    {
+        title: 'Semana 8 Parcial',
+        description: 'Evaluación parcial: sistema de gestión de biblioteca universitaria desarrollado con React, Vite y TypeScript.',
+        introduction: 'La evaluación parcial retomó los contenidos de la Semana 7 para desarrollar un sistema de gestión de biblioteca. La solución debía administrar categorías, libros, usuarios y préstamos con React, Vite, TypeScript y persistencia en Local Storage.',
+        topics: [
+            'Se diseñó un dashboard de administración para gestionar categorías y libros con formularios validados, edición, eliminación y control de stock.',
+            'Se implementó el registro de estudiantes y docentes evitando códigos universitarios duplicados y almacenando la información en Local Storage.',
+            'Se incorporó la búsqueda de libros, la solicitud de préstamos, la visualización de disponibilidad y la actualización automática del inventario.',
+            'Se generó un comprobante digital con usuario, libro, fechas, código único y opción de descarga en PDF.',
+            'Se creó el historial de préstamos con préstamos activos, estados de devolución, fechas y paginación.',
+            'Se aplicaron React Router, componentes reutilizables, diseño responsive, tema claro/oscuro, alertas, importación desde Excel y reportes exportables en PDF.'
+        ],
+        reflection: 'El parcial integró los conocimientos de React Hooks en un caso empresarial completo. La gestión de biblioteca exigió combinar estado, persistencia, validaciones, navegación y generación de documentos para ofrecer una experiencia coherente a administradores y usuarios.',
+        resources: [
+            { label: 'Evaluación parcial - Sistema de gestión de biblioteca', url: 'PDF/EvalParcial_PARIONA RAMOS SAUL ANIBAL.pdf' }
+        ]
     }
 ];
 
